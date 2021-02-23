@@ -1,0 +1,7 @@
+.site-header{
+    height: 4em;
+    background-color: #F3BD67;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
