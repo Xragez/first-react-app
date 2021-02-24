@@ -11,15 +11,3 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
-.input-text {
-  border-radius: 6px;
-  border: 1px solid rgb(236, 221, 13);
-}
-.button {
-  border-radius: 6px;
-  border: none;
-  background-color: rgb(163, 241, 234);
-  padding: 5px 10px;
-
-}

@@ -2,17 +2,13 @@ import React from 'react';
 
 function Searchbar() {
     return (
-        <div className="row">
-            <div className="form-group col">
+        <div className="d-flex">
                 <input
                     className="form-control"
                     type="text"
                     placeholder="Szukaj..."
                 />
-            </div>
-            <div className="col">
                 <button className="btn btn-primary">Szukaj</button>
-            </div>
         </div>
     );
 }
