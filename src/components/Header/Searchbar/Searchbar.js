@@ -1,12 +1,21 @@
 import React from 'react';
+import { Button } from 'reactstrap';
 
 function Searchbar() {
     return (
-        <div>
-            <input className="input-text"/>
-            <button className="button">Szukaj</button>
+        <div className="row">
+            <div className="form-group col">
+                <input
+                    className="form-control"
+                    type="text"
+                    placeholder="Szukaj..."
+                />
+            </div>
+            <div className="col">
+                <Button color="primary">Szukaj</Button>
+            </div>
         </div>
-    )
+    );
 }
 
 export default Searchbar;
