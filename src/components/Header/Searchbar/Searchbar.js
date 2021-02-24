@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from 'reactstrap';
 
 function Searchbar() {
     return (
@@ -12,7 +11,7 @@ function Searchbar() {
                 />
             </div>
             <div className="col">
-                <Button color="primary">Szukaj</Button>
+                <button className="btn btn-primary">Szukaj</button>
             </div>
         </div>
     );
