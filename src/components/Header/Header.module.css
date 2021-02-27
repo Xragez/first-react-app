@@ -1,8 +1,10 @@
 .header{
     height: 50px;
-    background-color: #F3BD67;
+    background-color: gainsboro;
+    background: url(../../assets/images/header1.jpg) center;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 50px 5px;
+    padding: 80px 5px;
 }

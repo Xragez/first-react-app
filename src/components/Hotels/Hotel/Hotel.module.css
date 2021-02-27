@@ -1,5 +1,15 @@
 .hotel {
-    border: 1px solid #cdcdcd;
     margin-bottom: 20px;
-    background-color: #F3BD67;
+    background-color: ghostwhite;
+}
+.title {
+    font-weight: bold;
+    font-size: 1.3rem;
+    margin-bottom: 5px;
+}
+.description {
+    color: grey;
+    font-size: 0.9rem;
+    margin-top: 10px;
+
 }
